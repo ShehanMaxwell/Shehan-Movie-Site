@@ -1,0 +1,108 @@
+.bg-grey ::placeholder {
+  color: #a3a3a3; /* Placeholder text color */
+}
+
+.bg-grey h1 {
+  color: #ffffff; /* Heading color */
+}
+.navbar.bg-dark {
+  background-color: #0f0f0f !important;
+}
+
+.nav-link.active {
+  color: white;
+  border-color: none;
+  border-bottom: 2px solid white;
+}
+
+.row-bottom-bordered {
+  border-bottom: 2px solid white;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.bg-grey {
+  background-color: #1d1d1d;
+}
+
+.bg-light-grey {
+  background-color: #3c3c3c;
+}
+
+.bg-dark-grey {
+  background-color: #0f0f0f;
+}
+.bg-dark-grey h1,
+.bg-dark-grey p {
+  color: #ffffff; /* Movie Library heading and paragraph color */
+}
+
+.bg-dark-grey p {
+  color: #b7b7b7; /* Paragraph color */
+}
+.bg-dark-grey .col-lg-8 h1 {
+  color: #ffffff !important; /* Heading color */
+}
+.input-group-text {
+  display: flex;
+  align-items: center;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #ffffff;
+  text-align: center;
+  white-space: nowrap;
+  background-color: var(--bs-tertiary-bg);
+  border: var(--bs-border-width) solid var(--bs-border-color);
+  border-radius: var(--bs-border-radius);
+}
+
+.bg-light-grey .card-body {
+  color: #eaeaea; /* Text color for the entire card body */
+}
+
+.bg-light-grey .card-title,
+.bg-light-grey .card-text {
+  color: #ffffff !important; /* Heading and description color */
+}
+.bg-black h1 {
+  color: #ffffff; /* Heading color */
+}
+.bg-black p {
+  color: #b7b7b7; /* Text color for "Send us a message now!" */
+}
+.bg-black form label,
+.bg-black form input,
+.bg-black form textarea,
+.bg-black form p {
+  color: #b7b7b7; /* Text color for contact form elements */
+}
+
+footer.text-body-secondary p,
+footer.text-body-secondary a {
+  color: #ffffff; /* Text color for paragraphs and links in the footer */
+}
+.text-body-secondary {
+  --bs-text-opacity: 1;
+  color: #ffffff !important;
+}
+#search-box-input::placeholder,
+#search-box-input:-ms-input-placeholder,
+#search-box-input::-ms-input-placeholder,
+#search-box-input:-moz-placeholder,
+#search-box-input::-moz-placeholder,
+#search-box-input:-webkit-input-placeholder {
+  color: #a3a3a3;
+}
+
+#search-box-input {
+  color: #ffffff; /* Text color for the search bar input text */
+}
+.btn-warning {
+  background-color: #cc9601;
+  color: #ffffff;
+  border-color: #cc9601;
+}
