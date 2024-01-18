@@ -106,3 +106,23 @@ footer.text-body-secondary a {
   color: #ffffff;
   border-color: #cc9601;
 }
+
+.bg-black .form-control {
+  color: #ffffff !important; /* Text color inside the contact form input fields */
+}
+.bg-black .form-control,
+.bg-black form textarea {
+  background-color: #3c3c3c !important; /* Background color for the input fields and textarea */
+}
+
+.bg-black .form-control::placeholder {
+  color: #a3a3a3; /* Placeholder text color */
+}
+
+.bg-black textarea {
+  border: none;
+}
+.bg-black .form-control {
+  border: none; /* Remove the border */
+  background-color: #3c3c3c; /* Set the background color */
+}
